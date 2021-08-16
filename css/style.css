@@ -1,0 +1,23 @@
+body {
+    background-color: #f2f2f2;
+}
+.container-fluid-nav {
+    display: flex;
+}
+.navbar-collapse {
+    flex-grow: 0;
+}
+.hero-content {
+    display: flex;
+}
+.hero-header {
+    text-align: center;
+}
+.hero-image {
+
+}
+@media screen and (max-width: 1152px) {
+    .nav-item {
+        text-align: center;
+    }
+}
