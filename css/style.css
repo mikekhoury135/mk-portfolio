@@ -10,7 +10,9 @@ body {
 .hero-content {
     display: flex;
     padding: 20px;
-    margin: 15px;
+    margin: 15px auto;
+    max-width: 960px;
+
 }
 .hero-header {
     text-align: center;
