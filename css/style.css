@@ -16,12 +16,32 @@ body {
 }
 .hero-header {
     text-align: center;
-    padding-left: auto;
-    padding-right: auto;
+    
 }
 .hero-image {
-    margin-top: auto;
-    margin-bottom: auto;
+
+}
+.img-radius {
+    border-radius: 10%;
+}
+.card {
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+    max-width: 960px;
+    text-align: center;
+}
+.card-text {
+    text-align: left;
+}
+.featured-content {
+    padding: 20px;
+    margin: 15px auto;
+    max-width: 960px;
+
+}
+.featured-header {
+    text-align: center;
 }
 @media screen and (max-width: 992px) {
     .nav-item {
