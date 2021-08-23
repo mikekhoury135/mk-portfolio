@@ -1,5 +1,5 @@
 body {
-    background-color: #f2f2f2;
+    background-image: linear-gradient(#FFFFFF, #FFEFBA);
 }
 .container-fluid-nav {
     display: flex;
@@ -37,10 +37,22 @@ body {
     padding: 20px;
     margin: 15px auto;
     max-width: 960px;
-
 }
 .featured-header {
     text-align: center;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 15px auto;
+    max-width: 960px;
+    text-align: center;
+}
+.social-img {
+    margin: 10px 20px 10px 20px;
+    width: 50px;
+    height: auto;
 }
 @media screen and (max-width: 992px) {
     .nav-item {
