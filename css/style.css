@@ -1,6 +1,9 @@
 body {
     background-image: linear-gradient(#FFFFFF, #FFEFBA);
 }
+nav {
+    background-image: linear-gradient(#FFEFBA, #FFFFFF);
+}
 .container-fluid-nav {
     display: flex;
 }
@@ -16,9 +19,6 @@ body {
 }
 .hero-header {
     text-align: center;
-}
-.hero-image {
-
 }
 .img-radius {
     border-radius: 10%;
@@ -53,6 +53,19 @@ body {
     margin: 10px 20px 10px 20px;
     width: 50px;
     height: auto;
+}
+.project-selector {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 15px auto;
+    max-width: 480px;
+    text-align: center;
+}
+.project-selector-item-active {
+    text-decoration: underline;
 }
 @media screen and (max-width: 992px) {
     .nav-item {
