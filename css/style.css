@@ -1,8 +1,8 @@
 body {
-    background-image: linear-gradient(#FFFFFF, #FFEFBA);
+    background-image: linear-gradient(#ECE9E6, #FFFFFF);
 }
 nav {
-    background-image: linear-gradient(#FFEFBA, #FFFFFF);
+    background-color: (#ECE9E6);
 }
 .container-fluid-nav {
     display: flex;
@@ -14,8 +14,11 @@ nav {
     display: flex;
     padding: 20px;
     margin: 15px auto;
-    max-width: 960px;
+    max-width: 1200px;
 
+}
+.hero-image {
+    display: inline-block;
 }
 .hero-header {
     text-align: center;
@@ -27,26 +30,35 @@ nav {
     display: flex;
     justify-content: center;
     margin: 15px auto;
-    max-width: 960px;
+    max-width: 1200px;
+    text-align: center;
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
 }
 .card-text {
-    text-align: left;
+    text-align: center;
 }
 .featured-content {
     padding: 20px;
     margin: 15px auto;
-    max-width: 960px;
+    max-width: 1200px;
 }
 .featured-header {
     text-align: center;
+}
+.featured-img {
+    margin: 0 0 20px 0;
 }
 .footer {
     display: flex;
     flex-direction: column;
     padding: 20px;
     margin: 15px auto;
-    max-width: 960px;
+    max-width: 1200px;
     text-align: center;
 }
 .social-img {
@@ -66,6 +78,17 @@ nav {
 }
 .project-selector-item-active {
     text-decoration: underline;
+}
+.project-cards {
+    padding: 20px;
+    margin: 15px auto;
+    max-width: 1200px;
+}
+.disclaimer {
+    text-align: center;
+    color: #FFFFFF;
+    background-color: black;
+    margin: 50px 0 0 0;
 }
 @media screen and (max-width: 992px) {
     .nav-item {
