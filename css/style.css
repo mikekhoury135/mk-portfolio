@@ -1,8 +1,8 @@
 body {
-    background-image: linear-gradient(#ECE9E6, #FFFFFF);
+    background-color: #fffff0;
 }
-nav {
-    background-color: (#ECE9E6);
+header {
+    background-color: #ffffff;
 }
 .container-fluid-nav {
     display: flex;
@@ -40,6 +40,8 @@ nav {
     text-align: center;
 }
 .card-text {
+    display: flex;
+    justify-content: center;
     text-align: center;
 }
 .featured-content {
@@ -51,7 +53,7 @@ nav {
     text-align: center;
 }
 .featured-img {
-    margin: 0 0 20px 0;
+    margin: 40px 0 20px 0;
 }
 .footer {
     display: flex;
@@ -76,6 +78,9 @@ nav {
     max-width: 480px;
     text-align: center;
 }
+.project-selector-item {
+    text-align: center;
+}
 .project-selector-item-active {
     text-decoration: underline;
 }
@@ -94,4 +99,10 @@ nav {
     .nav-item {
         text-align: center;
     }
+}
+.mhs {
+    background-color: lightblue;
+}
+.cfia {
+    background-color: lightblue;
 }
