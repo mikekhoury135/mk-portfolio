@@ -106,3 +106,22 @@ header {
 .cfia {
 
 }
+.overview-card {
+    padding: 20px;
+    margin: 15px auto;
+    max-width: 1200px;
+}
+.overview-header {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 15px auto;
+    max-width: 1200px;
+}
+.overview-text {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 15px auto;
+    max-width: 1200px;
+}
