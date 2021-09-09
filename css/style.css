@@ -119,3 +119,72 @@ header {
     margin: 15px auto;
     max-width: 1200px;
 }
+.scrollToTop{
+    width: 40px; 
+    height: 50px;
+    padding: 10px; 
+    text-align: center; 
+    background: whiteSmoke;
+    font-weight: bold;
+    color: #444;
+    text-decoration: none;
+    position: fixed;
+    bottom: 100px;
+    right: 20px;
+    background: no-repeat 0px 20px;
+}
+.scrollToTop:hover{
+    text-decoration:none;
+}
+.scroll-arrow {
+    width: 40px;
+    height: 50px;
+}
+@media screen and (min-width: 1137px) {
+    .scrollToTop{
+        width: 40px; 
+        height: 50px;
+        padding: 10px; 
+        text-align: center; 
+        background: whiteSmoke;
+        font-weight: bold;
+        color: #444;
+        text-decoration: none;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background: no-repeat 0px 20px;
+    }
+}
+@media screen and (min-width: 588px) {
+    .scrollToTop{
+        width: 40px; 
+        height: 50px;
+        padding: 10px; 
+        text-align: center; 
+        background: whiteSmoke;
+        font-weight: bold;
+        color: #444;
+        text-decoration: none;
+        position: fixed;
+        bottom: 70px;
+        right: 20px;
+        background: no-repeat 0px 20px;
+    }
+}
+@media screen and (min-width: 280px) {
+    .scrollToTop{
+        width: 40px; 
+        height: 50px;
+        padding: 10px; 
+        text-align: center; 
+        background: whiteSmoke;
+        font-weight: bold;
+        color: #444;
+        text-decoration: none;
+        position: fixed;
+        bottom: 130px;
+        right: 20px;
+        background: no-repeat 0px 20px;
+    }
+}
