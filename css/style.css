@@ -24,7 +24,9 @@ h2, h5, p {
     padding: 20px;
     margin: 15px auto;
     max-width: 1200px;
-
+}
+.bio-text {
+    font-size: 20px;
 }
 .hero-image {
     display: inline-block;
@@ -74,7 +76,7 @@ h2, h5, p {
     flex-direction: column;
     padding: 100px 20px;
 
-    max-width: 1200px;
+    max-width: auto;
     text-align: center;
     background: #eacda3;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #d6ae7b, #eacda3);  /* Chrome 10-25, Safari 5.1-6 */
@@ -108,10 +110,11 @@ h2, h5, p {
     max-width: 1200px;
 }
 .disclaimer {
+    font-size: 12px;
     text-align: center;
-    color: #FFFFFF;
-    background-color: black;
-
+    background: #eacda3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #d6ae7b, #eacda3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #d6ae7b, #eacda3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 @media screen and (max-width: 992px) {
     .nav-item {
