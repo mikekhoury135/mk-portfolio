@@ -1,8 +1,17 @@
 body {
-    background-color: #fffff0;
+
 }
 header {
-    background-color: #ffffff;
+    background: #eacda3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #d6ae7b, #eacda3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #d6ae7b, #eacda3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+h2, h5, p {
+    color: #000000;
+}
+.nav-link, .nav-item {
+    color: white;
 }
 .container-fluid-nav {
     display: flex;
@@ -55,13 +64,22 @@ header {
 .featured-img {
     margin: 40px 0 20px 0;
 }
+@media screen and (max-width: 768px) {
+    .featured-img {
+        flex-direction: column;
+    }
+}
 .footer {
     display: flex;
     flex-direction: column;
-    padding: 20px;
-    margin: 15px auto;
+    padding: 100px 20px;
+
     max-width: 1200px;
     text-align: center;
+    background: #eacda3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #d6ae7b, #eacda3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #d6ae7b, #eacda3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
 }
 .social-img {
     margin: 10px 20px 10px 20px;
@@ -93,7 +111,7 @@ header {
     text-align: center;
     color: #FFFFFF;
     background-color: black;
-    margin: 50px 0 0 0;
+
 }
 @media screen and (max-width: 992px) {
     .nav-item {
@@ -129,8 +147,8 @@ header {
     color: #444;
     text-decoration: none;
     position: fixed;
-    bottom: 100px;
-    right: 20px;
+    bottom: 70px;
+    right: 50px;
     background: no-repeat 0px 20px;
 }
 .scrollToTop:hover{
@@ -140,7 +158,7 @@ header {
     width: 40px;
     height: 50px;
 }
-@media screen and (min-width: 1137px) {
+@media screen and (max-width: 1136px) {
     .scrollToTop{
         width: 40px; 
         height: 50px;
@@ -151,12 +169,12 @@ header {
         color: #444;
         text-decoration: none;
         position: fixed;
-        bottom: 20px;
-        right: 20px;
+        bottom: 85px;
+        right: 40px;
         background: no-repeat 0px 20px;
     }
 }
-@media screen and (min-width: 588px) {
+@media screen and (max-width: 587px) {
     .scrollToTop{
         width: 40px; 
         height: 50px;
@@ -167,24 +185,8 @@ header {
         color: #444;
         text-decoration: none;
         position: fixed;
-        bottom: 70px;
-        right: 20px;
-        background: no-repeat 0px 20px;
-    }
-}
-@media screen and (min-width: 280px) {
-    .scrollToTop{
-        width: 40px; 
-        height: 50px;
-        padding: 10px; 
-        text-align: center; 
-        background: whiteSmoke;
-        font-weight: bold;
-        color: #444;
-        text-decoration: none;
-        position: fixed;
-        bottom: 130px;
-        right: 20px;
+        bottom: 135px;
+        right: 40px;
         background: no-repeat 0px 20px;
     }
 }
