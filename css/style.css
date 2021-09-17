@@ -1,5 +1,10 @@
+/* GLOBAL SELECTORS */
+/* GLOBAL SELECTORS */
+/* GLOBAL SELECTORS */
+/* GLOBAL SELECTORS */
+/* GLOBAL SELECTORS */
 body {
-
+    background-color: #FBF5ED;
 }
 header {
     background: #eacda3;  /* fallback for old browsers */
@@ -20,6 +25,99 @@ h2, h5, p, a {
 .navbar-collapse {
     flex-grow: 0;
 }
+.footer {
+    display: flex;
+    flex-direction: column;
+    padding: 100px 20px;
+
+    max-width: auto;
+    text-align: center;
+    background: #eacda3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #d6ae7b, #eacda3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #d6ae7b, #eacda3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+.footer-text {
+    font-size: 18px !important;
+}
+.social-img {
+    margin: 10px 20px 10px 20px;
+    width: 50px;
+    height: auto;
+}
+.disclaimer {
+    font-size: 16px;
+    text-align: center;
+    margin: 0 !important;
+    background: #eacda3;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #d6ae7b, #eacda3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #d6ae7b, #eacda3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.scrollToTop{
+    width: 40px; 
+    height: 50px;
+    padding: 10px; 
+    text-align: center; 
+    background: whiteSmoke;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    position: fixed;
+    bottom: 70px;
+    right: 50px;
+    background: no-repeat 0px 20px;
+}
+.scrollToTop:hover{
+    text-decoration:none;
+}
+.scroll-arrow {
+    width: 40px;
+    height: 50px;
+}
+@media screen and (max-width: 992px) {
+    .nav-item {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 1136px) {
+    .scrollToTop{
+        width: 40px; 
+        height: 50px;
+        padding: 10px; 
+        text-align: center; 
+        background: whiteSmoke;
+        font-weight: bold;
+        color: #444;
+        text-decoration: none;
+        position: fixed;
+        bottom: 85px;
+        right: 40px;
+        background: no-repeat 0px 20px;
+    }
+}
+@media screen and (max-width: 587px) {
+    .scrollToTop{
+        width: 40px; 
+        height: 50px;
+        padding: 10px; 
+        text-align: center; 
+        background: whiteSmoke;
+        font-weight: bold;
+        color: #444;
+        text-decoration: none;
+        position: fixed;
+        bottom: 135px;
+        right: 40px;
+        background: no-repeat 0px 20px;
+    }
+}
+
+/* HOMEPAGE SELECTORS */
+/* HOMEPAGE SELECTORS */
+/* HOMEPAGE SELECTORS */
+/* HOMEPAGE SELECTORS */
+/* HOMEPAGE SELECTORS */
+
 .hero-content {
     display: flex;
     padding: 20px;
@@ -73,26 +171,13 @@ h2, h5, p, a {
         flex-direction: column;
     }
 }
-.footer {
-    display: flex;
-    flex-direction: column;
-    padding: 100px 20px;
 
-    max-width: auto;
-    text-align: center;
-    background: #eacda3;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #d6ae7b, #eacda3);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #d6ae7b, #eacda3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
-}
-.footer-text {
-    font-size: 18px !important;
-}
-.social-img {
-    margin: 10px 20px 10px 20px;
-    width: 50px;
-    height: auto;
-}
+/* PROJECTS SELECTORS */
+/* PROJECTS SELECTORS */
+/* PROJECTS SELECTORS */
+/* PROJECTS SELECTORS */
+/* PROJECTS SELECTORS */
+
 .project-selector {
     display: flex;
     flex-direction: row;
@@ -114,19 +199,7 @@ h2, h5, p, a {
     margin: 15px auto;
     max-width: 1200px;
 }
-.disclaimer {
-    font-size: 12px;
-    text-align: center;
-    margin: 0 !important;
-    background: #eacda3;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #d6ae7b, #eacda3);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #d6ae7b, #eacda3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-@media screen and (max-width: 992px) {
-    .nav-item {
-        text-align: center;
-    }
-}
+
 .overview-card {
     padding: 20px;
     margin: 15px auto;
@@ -142,60 +215,54 @@ h2, h5, p, a {
 .overview-text {
     display: flex;
     justify-content: center;
+    margin: 15px auto;
+    max-width: 1200px;
+}
+
+/* MHS SELECTORS */
+
+.mhs-img {
+    padding: 20px 0 20px 0;
+}
+.mhs-5-img, .mhs-midfi-prototype-img {
+    padding: 20px;
+}
+.research-info {
     padding: 20px;
     margin: 15px auto;
     max-width: 1200px;
 }
-.scrollToTop{
-    width: 40px; 
-    height: 50px;
-    padding: 10px; 
-    text-align: center; 
-    background: whiteSmoke;
-    font-weight: bold;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    position: fixed;
-    bottom: 70px;
-    right: 50px;
-    background: no-repeat 0px 20px;
+.research-interviews {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
-.scrollToTop:hover{
-    text-decoration:none;
+.ideation-definition {
+    padding: 20px;
+    margin: 15px auto;
+    max-width: 1200px;
 }
-.scroll-arrow {
-    width: 40px;
-    height: 50px;
+.mhs-wireframing-prototyping {
+    padding: 20px;
+    margin: 15px auto;
+    max-width: 1200px;
 }
-@media screen and (max-width: 1136px) {
-    .scrollToTop{
-        width: 40px; 
-        height: 50px;
-        padding: 10px; 
-        text-align: center; 
-        background: whiteSmoke;
-        font-weight: bold;
-        color: #444;
-        text-decoration: none;
-        position: fixed;
-        bottom: 85px;
-        right: 40px;
-        background: no-repeat 0px 20px;
-    }
-}
-@media screen and (max-width: 587px) {
-    .scrollToTop{
-        width: 40px; 
-        height: 50px;
-        padding: 10px; 
-        text-align: center; 
-        background: whiteSmoke;
-        font-weight: bold;
-        color: #444;
-        text-decoration: none;
-        position: fixed;
-        bottom: 135px;
-        right: 40px;
-        background: no-repeat 0px 20px;
-    }
-}
+/*.mhs-container-background {
+    background-color: rgb(135, 206, 235, 0.5);
+}*/
+
+/* CFIA SELECTORS */
+
+
+
+/* DIGISET SELECTORS */
+
+
+
+/* RESUME SELECTORS */
+
+
+
+/* SANDBOX SELECTORS */
+
+
